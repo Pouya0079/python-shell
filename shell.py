@@ -12,6 +12,7 @@ class Shell:
 
     @staticmethod
     def set_screen():
+        """Set color screen and clear it"""
         print('\033[1;32;40m')
         os.system('clear')
 
